@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/e6b20534b4.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/projects-style.css" />
+
+  <title>B2B Investment</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-warning py-3 fixed-top">
+    <div class="container-fluid">
+      <img src="images/b2b.png" alt="b2b logo" class="navbar-brand-img" />
+      <a href="#" class="navbar-brand">B2B Investment Projects</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"><i class="fa-solid fa-bars-staggered"></i></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link" type="button">
+              <i class="fa-solid fa-dollar-sign"></i> Projects
+            </a>
+            <div class="dropdown-content">
+              <a href="">Hospitals <span class="badge rounded-pill bg-danger">8</span></button></a>
+              <a href="">Cements <span class="badge rounded-pill bg-danger">8</span></button></a>
+              <a href="">Cars <span class="badge rounded-pill bg-danger">8</span></button></a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="#learn" class="nav-link"><i class="fa-solid fa-people-group"></i> Investment
+              Relationship
+            </a>
+         
+          </li>
+          <li class="nav-item">
+            <a href="#learn" class="nav-link"><i class="fa-solid fa-coins"></i> Funding
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="crypto-currency.html" class="nav-link"><i class="fa-solid fa-bitcoin-sign"></i> Cryptocurrency
+            </a>
+            <div class="dropdown-content">
+              <a href="">Crypto Converter </span></a>
+             
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="fa-solid fa-dollar-sign"></i> Currency
+            </a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  
+
+  <div class="projects-section">
+    <div class="buttons-section">
+      <div class="container">
+        <div class="filter-buttons">
+          <div class="btn-group container-fluid" role="group" aria-label="First group">
+
+            <button type="button" class="btn btn-outline-warning" data-filter="all">All <span
+                class="badge rounded-pill bg-danger">25</span></button>
+            <button type="button" class="btn btn-outline-warning" data-filter=".Buldings">Buldings <span
+                class="badge rounded-pill bg-danger">8</span></button>
+            <button type="button" class="btn btn-outline-warning" data-filter=".Cements">Cements <span
+                class="badge rounded-pill bg-danger">4</span></button>
+            <button type="button" class="btn btn-outline-warning" data-filter=".Cars">Cars <span
+                class="badge rounded-pill bg-danger">7</span></button>
+            <button type="button" class="btn btn-outline-warning" data-filter=".Hotels">Hotels <span
+                class="badge rounded-pill bg-danger">2</span></button>
+            <button type="button" class="btn btn-outline-warning" data-filter=".Hospital">Hospitals <span
+                class="badge rounded-pill bg-danger">4</span> </button>
+            <button type="button" class="btn btn-outline-warning" data-filter=".Other">Other <span
+                class="badge rounded-pill bg-danger">0</span></button>
+          </div>
+        </div>
+        <form class="search-bar">
+          <input class="form-control " type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+    <div class="projects">
+      <div class="container-fluid" id="projects">
+        <div class="mix Buldings">
+          <img src="images/20.jpg" class="card-img-top rounded-3" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Buldings D</h5>
+
+            <a href="project-details.html" class="btn btn-warning">See More</a>
+          </div>
+        </div>
+        <div class="mix Hotels">
+          <img src="images/19.jpg" class="card-img-top rounded-3" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Hotels A</h5>
+
+            <a href="project-details.html" class="btn btn-warning">See More</a>
+          </div>
+        </div>
+        <div class="mix Cars">
+          <img src="images/27.jpg" class="card-img-top rounded-3" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Cars G</h5>
+
+            <a href="project-details.html" class="btn btn-warning">See More</a>
+          </div>
+        </div>
+        <div class="mix Buldings    ">
+          <img src="images/11.jpg" class="card-img-top rounded-3" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Buldings D</h5>
+
+            <a href="project-details.html" class="btn btn-warning">See More</a>
+          </div>
+        </div>
+        <div class="mix Cars    ">
+          <img src="images/1.jpeg" class="card-img-top rounded-3" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Cars A</h5>
+
+            <a href="project-details.html" class="btn btn-warning">See More</a>
+          </div>
+        </div>
+        <div class="mix Cars    ">
+          <img src="images/2.jpg" class="card-img-top rounded-3" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Cars B</h5>
+
+            <a href="project-details.html" class="btn btn-warning">See More</a>
+          </div>
+        </div>
+        <div class="mix Cars    ">
+          <img src="images/4.png" class="card-img-top rounded-3" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Cars C</h5>
+
+            <a href="project-details.html" class="btn btn-warning">See More</a>
+          </div>
+        </div>
+
+        <div class="mix Cars    ">
+          <img src="images/5.jpg" class="card-img-top rounded-3" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Cars D</h5>
+
+
+            <a href="project-details.html" class="btn btn-warning">See More</a>
+          </div>
+        </div>
+        <div class="mix Cars    ">
+          <img src="images/16.jpeg" class="card-img-top rounded-3" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Cars E</h5>
+
+
+            <a href="project-details.html" class="btn btn-warning">See More</a>
+          </div>
+        </div>
+        <div class="mix Cars    ">
+          <img src="images/18.jpg" class="card-img-top rounded-3" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Cars F</h5>
+
+
+            <a href="project-details.html" class="btn btn-warning">See More</a>
+          </div>
+        </div>
+
+        <div class="mix Buldings    ">
+          <img src="images/26.jpeg" class="card-img-top rounded-3" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Buldings A</h5>
+
+
+            <a href="project-details.html" class="btn btn-warning">See More</a>
+          </div>
+        </div>
+        <div class="mix Buldings    ">
+          <img src="images/26.jpeg" class="card-img-top rounded-3" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Buldings A</h5>
+
+
+            <a href="project-details.html" class="btn btn-warning">See More</a>
+          </div>
+        </div>
+         <div class="mix Buldings    ">
+          <img src="images/25.png" class="card-img-top rounded-3" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Buldings B</h5>
+             ..................................................................
+              ..................................................................
+              ..................................
+              
+            <a href="project-details.html" class="btn btn-warning">See More</a>
+          </div>
+        </div>
+        <div class="mix Buldings    ">
+          <img src="images/21.jpg" class="card-img-top rounded-3" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Buldings C</h5>
+             ..................................................................
+              ..................................................................
+              ..................................
+              
+            <a href="project-details.html" class="btn btn-warning">See More</a>
+          </div>
+        </div>
+
+        <div class="mix Buldings    ">
+          <img src="images/17.jpg" class="card-img-top rounded-3" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Buldings F</h5>
+             ..................................................................
+              ..................................................................
+              ..................................
+              
+            <a href="project-details.html" class="btn btn-warning">See More</a>
+          </div>
+        </div>
+        <div class="mix Hospital    ">
+          <img src="images/24.jpg" class="card-img-top rounded-3" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Hospital A</h5>
+             ..................................................................
+              ..................................................................
+              ..................................
+              
+            <a href="project-details.html" class="btn btn-warning">See More</a>
+          </div>
+        </div>
+        <div class="mix Hospital    ">
+          <img src="images/8.jpeg" class="card-img-top rounded-3" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Hospital A</h5>
+             ..................................................................
+              ..................................................................
+              ..................................
+              
+            <a href="project-details.html" class="btn btn-warning">See More</a>
+          </div>
+        </div>
+        <div class="mix Hospital    ">
+          <img src="images/9.jpg" class="card-img-top rounded-3" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Hospital A</h5>
+             ..................................................................
+              ..................................................................
+              ..................................
+              
+            <a href="project-details.html" class="btn btn-warning">See More</a>
+          </div>
+        </div>
+        <div class="mix Hospital    ">
+          <img src="images/15.jpg" class="card-img-top rounded-3" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Hospital A</h5>
+             ..................................................................
+              ..................................................................
+              ..................................
+              
+            <a href="project-details.html" class="btn btn-warning">See More</a>
+          </div>
+        </div>
+
+        <div class="mix Buldings    ">
+          <img src="images/7.jpg" class="card-img-top rounded-3" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Buldings E</h5>
+             ..................................................................
+              ..................................................................
+              ..................................
+              
+            <a href="project-details.html" class="btn btn-warning">See More</a>
+          </div>
+        </div>
+        <div class="mix Buldings    ">
+          <img src="images/3.jpg " class="card-img-top rounded-3" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Buldings F</h5>
+             ..................................................................
+              ..................................................................
+              ..................................
+              
+            <a href="project-details.html" class="btn btn-warning">See More</a>
+          </div>
+        </div>
+
+        <div class="mix Hotels    ">
+          <img src="images/23.jpg" class="card-img-top rounded-3" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Hotels B</h5>
+             ..................................................................
+              ..................................................................
+              ..................................
+              
+            <a href="project-details.html" class="btn btn-warning">See More</a>
+          </div>
+        </div>
+        <div class="mix Cements    ">
+          <img src="images/14.jpg" class="card-img-top rounded-3" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Hospital A</h5>
+             ..................................................................
+              ..................................................................
+              ..................................
+              
+            <a href="project-details.html" class="btn btn-warning">See More</a>
+          </div>
+        </div>
+        <div class="mix Cements    ">
+          <img src="images/13.jpg" class="card-img-top rounded-3" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Cements A</h5>
+             ..................................................................
+              ..................................................................
+              ..................................
+              
+            <a href="project-details.html" class="btn btn-warning">See More</a>
+          </div>
+        </div>
+        <div class="mix Cements    ">
+          <img src="images/12.jpg" class="card-img-top rounded-3" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Cements b</h5>
+             ..................................................................
+              ..................................................................
+              ..................................
+              
+            <a href="project-details.html" class="btn btn-warning">See More</a>
+          </div>
+        </div>
+        <div class="mix Cements    ">
+          <img src="images/10.jpg" class="card-img-top rounded-3" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Cements c</h5>
+             ..................................................................
+              ..................................................................
+              ..................................
+              
+            <a href="project-details.html" class="btn btn-warning">See More</a>
+          </div>
+        </div> -->
+
+
+      </div>
+
+
+    </div>
+  </div>
+  <!-- login Model
+
+     <div class="modal fade" id="LoginModel" tabindex="-1" aria-labelledby="LoginModelLabel" aria-hidden="true">
+    <div class="modal-dialog ">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="LoginModelLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+
+      </div>
+    </div>
+  </div> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- Projects Section Links -->
+
+  <script src="js/mixitup.min.js"></script>
+  <script> var mixer = mixitup('.projects'); </script>
+
+  <script>
+    $(".nav-item").click(function () {
+      // If the clicked element has the active class, remove the active class from EVERY .nav-link>.state element
+      if ($(this).hasClass("active")) {
+        $(".nav-item").removeClass("active");
+
+      }
+      // Else, the element doesn't have the active class, so we remove it from every element before applying it to the element that was clicked
+      else {
+        $(".nav-item").removeClass("active");
+        $(this).addClass("active");
+      }
+    });
+    $('.nav-item').click(function () {
+      $(this).children('.dropdown-content').slideToggle();
+      
+
+    });
+
+
+  </script>
+</body>
+
+</html>
