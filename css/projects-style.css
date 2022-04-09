@@ -1,0 +1,63 @@
+.projects-section {
+  display: flex;
+  flex-direction: column;
+  height: 1000px;
+  position: relative;
+  margin-top: 50px;
+
+
+}
+
+.container {
+
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.buttons-section .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-bar {
+  display: flex;
+
+}
+
+.projects .container-fluid {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+
+}
+
+.card-body {
+
+  display: flex;
+  flex-direction: column;
+}
+
+.mix {
+  margin-left: 30px;
+  width: 14rem;
+  height: fit-content;
+}
+
+.mix img {
+  width: 14rem;
+}
+
+.form-control {
+  width: 200px;
+}
+
+.card-img-top {
+  width: fit-content;
+  height: 220px;
+}
+@media screnn and (max-width: 700px){
+
+}

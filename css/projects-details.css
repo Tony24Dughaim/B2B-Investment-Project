@@ -1,0 +1,105 @@
+.project-content-section{
+    min-height: 340px;
+    padding: 20px;
+    margin: 30px 0;
+    border: 1px solid #eee;
+}
+.banner-page .title{
+    font-size: 50px;
+    text-align: center;
+    color: beige;
+    color: #FFF;
+    text-shadow: 1px 1px 3px rgb(0 0 0 / 50%);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 40px 0 3px;
+}
+.banner-page .title:after {
+    content: " ";
+    background: #010133;
+    height: 3px;
+    width: 126px;
+    display: block;
+    margin: 15px auto;
+}
+.banner-img
+{
+    background: url(../images/28.jpg);
+    height: 160px;
+    background-size: cover !important;
+    display: block;
+    background-position: center top !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.project-content .project-logo{
+    text-align: center;
+}
+.project-content .project-logo img
+{
+    margin-bottom: 15px;
+    border: 1px solid #eee;
+    max-height: 100px;
+}
+
+.project-content .title{
+    color: #010133;
+    margin-bottom: 20px;
+    font-size: 28px;
+    text-align: center;
+}
+.project-content .title:after {
+    content: " ";
+    text-align: center;
+    background: #010133;
+    height: 3px;
+    width: 200px;
+    display: block;
+    margin: 15px auto;
+}
+.project-gallery{
+    margin-bottom: 50px;
+}
+.details-section .main-title{
+    color: #010133;
+    margin-bottom: 20px;
+    font-size: 28px;
+    
+}
+.details-section .main-title:after {
+    content: " ";
+    background: #010133;
+    height: 3px;
+    width: 50px;
+    display: block;
+    margin-top: 12px;
+}
+.details-section .sub-title{
+    color: #010133;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.details-section .sub-details{
+    padding-left: 180px;
+    line-height: 200%;
+    padding-bottom: 18px
+
+}
+.invest-section .invest-title{
+    color: #010133;
+    margin-bottom: 20px;
+    font-size: 30px;
+    
+    
+}
+.invest-section .invest-title::after{
+    content: " ";
+    background: #010133;
+    height: 3px;
+    width: 200px;
+    display: block;
+    margin-top: 12px;
+    
+}
